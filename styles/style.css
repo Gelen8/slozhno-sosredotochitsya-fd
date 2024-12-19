@@ -50,7 +50,7 @@ a:focus-visible {
   position: absolute;
   z-index: 1;
   inset-inline-end: 10px;
-  inset-block-start: 10px; 
+  inset-block-start: 10px;
   width: 25px;
   height: 25px;
   background: transparent;
@@ -63,7 +63,7 @@ a:focus-visible {
   position: absolute;
   z-index: 1;
   inset-inline-start: 10px;
-  inset-block-end: 10px; 
+  inset-block-end: 10px;
   width: 25px;
   height: 25px;
   background: transparent;
@@ -250,7 +250,7 @@ button:disabled {
   font-weight: 700;
 }
 
-.section__heading{
+.section__heading {
   font-weight: inherit;
 }
 
@@ -275,7 +275,7 @@ img {
 @media (min-width: 768px) {
   .main-content {
     margin-block: 60px;
-    gap: 80px; 
+    gap: 80px;
   }
 
   .section-why {
@@ -297,7 +297,7 @@ img {
     grid-row: 2/3;
   }
 
-  .section-how{
+  .section-how {
     grid-template-rows: min-content 1fr;
     grid-template-columns: 1fr 2fr;
   }
